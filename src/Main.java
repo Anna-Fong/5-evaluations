@@ -4,7 +4,7 @@ public class Main {
         //Question 1
         int x = 5;
         int y = 7;
-        System.out.println(((x*4) < (y + 15)) && x < y);
+        System.out.println(((x * 4) < (y + 15)) && x < y);
         System.out.println((5 * 4) < (7 + 15) && 5 < 7);
         System.out.println(20 < 22 && 5 < 7);
 
@@ -14,10 +14,10 @@ public class Main {
         x = 10;
         y = 20;
         int z = 30;
-        System.out.println((( x == y) || (x < z)) && (x*2 + y)/5 > z);
-        System.out.println((10 == 20) || (10 < 30) && (10*2 + 30)/5 > 30);
-        System.out.println((10 == 20) || (10 < 30) && (20 + 30)/5 > 30);
-        System.out.println((10 == 20) || (10 < 30) && 50/5 > 30);
+        System.out.println(((x == y) || (x < z)) && (x * 2 + y) / 5 > z);
+        System.out.println((10 == 20) || (10 < 30) && (10 * 2 + 30) / 5 > 30);
+        System.out.println((10 == 20) || (10 < 30) && (20 + 30) / 5 > 30);
+        System.out.println((10 == 20) || (10 < 30) && 50 / 5 > 30);
         System.out.println((10 == 20) || (10 < 30) && 25 > 30);
 
         System.out.println(" ");
@@ -43,7 +43,11 @@ public class Main {
         System.out.println(" ");
 
         //Question 5
-        System.out.println((Math.abs(-2) == 2) || (Math.sqrt(Math.pow(9,2)) <= 9 && (-4 <= 4)));
-        System.out.println(());
+        System.out.println((Math.abs(-2) == 2) || (Math.sqrt(Math.pow(9, 2)) <= 9 && (-4 <= 4)));
+        System.out.println(+2 == 2 || (Math.sqrt(Math.pow(9, 2)) <= 9 && (-4 <= 4)));
+        
 
+
+    }
+}
 
