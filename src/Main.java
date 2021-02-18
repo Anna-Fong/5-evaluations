@@ -8,9 +8,6 @@ public class Main {
         System.out.println((5 * 4) < (7 + 15) && 5 < 7);
         System.out.println(20 < 22 && 5 < 7);
 
-        // for space
-        System.out.println(" ");
-
         //Question 2
         x = 10;
         y = 20;
@@ -21,17 +18,11 @@ public class Main {
         System.out.println((10 == 20) || (10 < 30) && 50 / 5 > 30);
         System.out.println((10 == 20) || (10 < 30) && 25 > 30);
 
-        // for space
-        System.out.println(" ");
-
         //Question 3
         boolean a = true;
         boolean b = false;
         System.out.println((a || b) && ((a == b) || a));
         System.out.println((true || false) && ((true == false) || true));
-
-        // for space
-        System.out.println(" ");
 
         //Question 4
         a = false;
@@ -42,9 +33,6 @@ public class Main {
         System.out.println((false == false) && (5 * 4) == (10 % 6) * 5);
         System.out.println((false == false) && 20 == (4 * 5));
         System.out.println((false == false) && 20 == 20);
-
-        //for space
-        System.out.println(" ");
 
         //Question 5
         System.out.println((Math.abs(-2) == 2) || (Math.sqrt(Math.pow(9, 2)) <= 9 && (-4 <= 4)));
